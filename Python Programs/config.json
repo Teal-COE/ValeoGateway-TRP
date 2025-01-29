@@ -1,0 +1,32 @@
+{
+ "server" : "DESKTOP-05OEJJN\\SQLEXPRESS",
+"database" : "IGSA",
+"username" : "sa",
+"password" : "teal@123",
+  "TOKEN_URL" : "http://192.168.1.250/PalletAPI/api/Values/Check_login?device_id=2138-0033-21",
+  "API_URL" : "http://192.168.1.250/PalletAPI/api/Values/",
+  "fault_code": "InsertPallet",
+  "ftt": "InsertFTT",
+  "Company_code": "TEAL_VAleo",
+  "Plant_code": "Teal_valeo01",
+  "Line_code": "igsa01",
+  "Date": "2024-03-01",
+  "token_tail": ":2138-0033-21",
+  "Machine_details": {
+    "OP10": "M1",
+    "OP20A": "M2",
+    "OP20B": "M3",
+    "OP20C": "M4",
+    "OP30": "M5",
+    "OP40": "M7"
+  }
+
+
+
+
+
+
+
+
+
+}
