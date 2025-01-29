@@ -1,0 +1,103 @@
+
+{
+    "apps": [
+
+        {
+
+            "name": "plcservice",
+
+            "cwd": "D:/IOT/Backup/plcservice",
+
+            "script": "index.js",
+
+            "watch": false,
+
+            "ignore_watch": [
+
+                "node_modules"
+
+            ],
+
+            "restart_delay": 10000,
+
+            "delay": 60,
+
+            "autorestart": true,
+
+            "max-memory-restart": "3500M",
+
+            "error_file": "/dev/null",
+
+            "log_date_format": "YYYY-MM-DD HH:mm:ss",
+
+            "lines": 50000,
+
+            "shutdown_with_message": true,
+
+            "stop_exit_codes": [
+
+                0
+
+            ],
+
+            "watch_options": {
+
+                "followSymlinks": false
+
+            }
+
+        },
+
+        {
+
+            "name": "gateway service",
+
+            "cwd": "D:/IOT/Backup/gatewayService",
+
+            "script": "index.js",
+
+            "watch": false,
+
+            "ignore_watch": [
+
+                "node_modules"
+
+            ],
+
+            "restart_delay": 30000,
+
+            "delay": 70,
+
+            "autorestart": true,
+
+            "max-memory-restart": "3500M",
+
+            "error_file": "/dev/null",
+
+            "log_date_format": "YYYY-MM-DD HH:mm:ss",
+
+            "lines": 50000,
+
+            "wait_ready": true,
+
+            "listen_timeout": 4000,
+
+            "shutdown_with_message": true,
+
+            "stop_exit_codes": [
+
+                0
+
+            ],
+
+            "watch_options": {
+
+                "followSymlinks": false
+
+            }
+
+        }
+
+    ]
+
+    }

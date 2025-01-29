@@ -1,0 +1,51 @@
+{
+    "apps": [
+      {
+        "name": "plcservice",
+        "cwd": "./plcservice",
+        "env": {
+          "NODE_ENV": "valeo.release"
+        },
+        "script": "index.js",
+        "watch": false,
+        "ignore_watch": [
+          "node_modules"
+        ],
+        "restart_delay": 30000,
+        "out_file": "/dev/null",
+        "error_file": "/dev/null",
+        "wait_ready": true,
+        "shutdown_with_message": true,
+        "stop_exit_codes": [
+          0
+        ],
+        "watch_options": {
+          "followSymlinks": false
+        }
+      },
+      {
+        "name": "gateway service",
+        "cwd": "./gatewayService",
+        "env": {
+          "NODE_ENV": "valeo.release"
+        },
+        "script": "index.js",
+        "watch": false,
+        "ignore_watch": [
+          "node_modules"
+        ],
+        "restart_delay": 30000,
+        "out_file": "/dev/null",
+        "error_file": "/dev/null",
+        "wait_ready": true,
+        "shutdown_with_message": true,
+        "stop_exit_codes": [
+          0
+        ],
+        "watch_options": {
+          "followSymlinks": false
+        }
+      }
+    ]
+  }
+  

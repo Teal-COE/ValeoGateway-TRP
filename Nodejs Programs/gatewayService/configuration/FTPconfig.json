@@ -1,0 +1,14 @@
+{
+  "devicename": "2",
+  "filename": "RawTable.csv",
+  "CycleTimefilename": "RawCycleTime.csv",
+  "Criticalfilename": "CycleTimeIndex.csv",
+  "Lossfilename": "Loss.csv",
+  "Alarmfilename": "Alarm.csv",
+  "Toollifefilename": "Tool.csv",
+  "diagnosticfilename": "tag.json.shtm",
+  "fullpath": "E:/Software/IIOT/IIOT/DLK/ftp", 
+  "path": "ftp",
+  "url": "http://192.168.3.9:82/",
+  "rowbaseurl": "http://192.168.3.9:81/"
+}
